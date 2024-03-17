@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  TF_CLOUD_ORGANIZATION: "FIAP GRUPO 53"
+  TF_CLOUD_ORGANIZATION: "lessalc"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "terraform-github-actions-teste"
   CONFIG_DIRECTORY: "./"
