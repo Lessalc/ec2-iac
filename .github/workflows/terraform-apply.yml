@@ -1,6 +1,8 @@
 name: Terraform Plan
 on:
   push:
+    branches:
+      - master
 
 env:
   TF_CLOUD_ORGANIZATION: "lessalc"
