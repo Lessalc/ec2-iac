@@ -1,9 +1,7 @@
 name: Terraform Plan
 on:
   pull_request:
-    branches:
-      - develop
-
+    
 env:
   TF_CLOUD_ORGANIZATION: "lessalc"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
